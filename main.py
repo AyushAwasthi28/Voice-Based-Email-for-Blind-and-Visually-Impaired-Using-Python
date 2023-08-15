@@ -9,9 +9,9 @@ engine = pyttsx3.init()
 
 # Set up the email connection
 imap_server = 'imap.gmail.com'
-imap_username = 'voicemailforblindproject@gmail.com'
-imap_password = 'vvxiqwoyfowrctfr'
-imap_passkey = '0305'
+imap_username = 'xxxxxxx@yyy.com'
+imap_password = 'xxxxxxxxx'
+imap_passkey = 'xxxx'
 
 # Connect to the Gmail server using easyimap
 mailbox = easyimap.connect(imap_server, imap_username, imap_password)
